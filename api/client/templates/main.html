@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+    <script src="{{ url_for('static', filename='scripts/main.js') }}" defer></script>
+    <title>FlashQuery</title>
+</head>
+<body>
+
+    <h2 class="title" id="title">QuasarQuery™</h2>
+    <p>FlashQuery, a free AI study tool.</p>
+    <div class="container">
+
+        <div class="flashcard" id="flashcardContainer">
+
+        </div>
+
+        <div class="load-flashcard">
+            <input type="text" id="flaskcardtemplate" class="input" placeholder="Input flashcard prompt...">
+            <button class="button" id="loadButton">Create</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
